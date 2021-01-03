@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hello and welcome to my blog.
 twitter_username: TazwarH
 github_username: tazwar70
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: "dark"
 search: true
 
 # Build settings
@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Md Shadman Tajwar Haque"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Hello and welcome to my blog."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
