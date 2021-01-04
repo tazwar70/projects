@@ -10,6 +10,8 @@ tags:
   - Matplotlib
   - Scipy
 ---
+During my Fall 2020 (2nd) Semester at the University of Windsor, I had the course Computational Methods and Modelling for Engineers which basically taught MATLAB.
+
 I have re-done my MATLAB course in python to learn and practice Numpy, Matplotlib and Scipy.
 
 Everything was done using Google Colab and was done in 8 parts as follow,
