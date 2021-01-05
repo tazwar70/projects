@@ -14,3 +14,12 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: post
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Post
