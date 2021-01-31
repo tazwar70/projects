@@ -28,7 +28,7 @@ Since not all information is required, only certain information is extracted to 
 
 The following figure shows a scatter plot showing the **engine size** on the x-axis, **carbon emissions** on the y-axis, the size of the plots denotes the **combined fuel consumption** and the color scale denotes the **number of cylinders**.
 
-![Carbon Emissions Overview](images/carbon-emission-plot-1.png)
+![Carbon Emissions Overview](https://github.com/tazwar70/blog/raw/master/_posts/images/carbon-emission-plot-1.png)
 
 The plot shows a linear relationship and therefore linear regression was used to find a model to predict future carbon emissions.
 
