@@ -11,10 +11,12 @@ tags:
 - Plotly
 - Scikit Learn
 - Tensorflow
-
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+header:
+  overlay_image: images/carbon-emission-plot-1.png
 ---
-
-# Initial
 
 The goal of the project was to analyze a data-set of car specifications and based on certain parameters, predict future model carbon emissions.
 
