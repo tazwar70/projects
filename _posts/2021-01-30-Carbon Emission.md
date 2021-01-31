@@ -2,7 +2,7 @@
 title: Predicting Carbon Emission of Cars
 date: 2021-01-03T15:34:30.000-04:00
 categories:
-- blog
+- post
 tags:
 - Python
 - Numpy
