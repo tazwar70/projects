@@ -102,7 +102,7 @@ metrics.accuracy_score(y_test, predicted_y)
 
 The following diagram shows the decision tree breakdown of the model.
 
-![Decision Tree](images/drug%20suggestion%20decision%20tree.png)
+![Decision Tree](https://github.com/tazwar70/blog/raw/master/_posts/images/drug%20suggestion%20decision%20tree.png)
 
 Link to Notebook: [GitHub](https://github.com/tazwar70/Drug-Suggestion)
 

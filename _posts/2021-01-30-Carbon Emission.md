@@ -83,7 +83,7 @@ The following image shows a distribution of the data. So far, the analysis was p
 
 The tableau analysis shows that based on the fuel type, there is a very linear relationship with the carbon emission.
 
-![Carbon-Emission-Tableau-dashboard](images/Dashboard%201.png)
+![Carbon-Emission-Tableau-dashboard](https://github.com/tazwar70/blog/raw/master/_posts/images/Dashboard%201.png)
 
 [Link to Tableau](https://public.tableau.com/profile/md.shadman.tajwar.haque#!/vizhome/CarbonEmission_16126519320280/CarbonEmissionAnalysis)
 

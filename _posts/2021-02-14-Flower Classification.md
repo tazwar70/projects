@@ -17,7 +17,7 @@ This project focuses on classifying flowers based on the IRIS Data-set using the
 
 The figure below shows the distribution of the Data-set using seaborn visualization.
 
-![IRIS-scatterplot](images/iris-scatterplot.png)
+![IRIS-scatterplot](https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png)
 
 The Data-set includes the following information,
 
@@ -85,7 +85,7 @@ The table below shows the classification report of the model,
 
 The image below shows the confusion matrix of the model,
 
-![IRIS confusion matrix](images/iris-confusion-matrixpng.png)
+![IRIS confusion matrix](https://github.com/tazwar70/blog/raw/master/_posts/images/iris-confusion-matrixpng.png)
 
 
 
