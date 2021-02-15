@@ -5,10 +5,7 @@ categories:
 - post
 tags:
 - Python
-- Numpy
-- Matplotlib
-- Pandas
-- Plotly
+- Regression
 - Scikit Learn
 - Tensorflow
 
