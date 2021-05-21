@@ -112,4 +112,4 @@ tag_archive:
   type: liquid
   path: /tags/
 feed:
-  path: atom.xml
+  path: /assets/feed.xml
