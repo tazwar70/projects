@@ -3,7 +3,7 @@ title: Classifying Flower Data
 date: 2021-02-14T15:34:30.000-04:00
 header:
   overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png
-  overlay_filter: linear-gradient(rgb(0,128,128,0.5))
+  overlay_filter: rgba(0,128,128,0.5)
   teaser: https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png
 toc: true
 toc_label: "Contents"
