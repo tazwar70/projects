@@ -1,6 +1,8 @@
 ---
 title: Classifying Flower Data
 date: 2021-02-14T15:34:30.000-04:00
+header:
+  teaser: https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png
 categories:
 - post
 tags:
