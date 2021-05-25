@@ -2,7 +2,11 @@
 title: Capstone Project - 911 Calls
 date: 2021-05-11T15:34:30.000-04:00
 header:
+  image: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg
   teaser: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg
+toc: true
+toc_label: "Contents"
+toc_icon: "cog"
 categories:
 - post
 tags:

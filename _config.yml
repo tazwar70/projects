@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hello and welcome to my blog.
 twitter_username: TazwarH
 github_username: tazwar70
-minimal_mistakes_skin: "contrast"
+minimal_mistakes_skin: "default","contrast", # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 # Build settings
