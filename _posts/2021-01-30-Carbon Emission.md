@@ -4,7 +4,7 @@ title: Predicting Carbon Emission of Cars
 date: 2021-01-30T15:34:30.000-04:00
 
 header:
-  image: https://github.com/tazwar70/blog/raw/master/_posts/images/carbon-emission-plot-1.png
+  overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/carbon-emission-plot-1.png
   teaser: https://github.com/tazwar70/blog/raw/master/_posts/images/carbon-emission-plot-1.png
 
 toc: true

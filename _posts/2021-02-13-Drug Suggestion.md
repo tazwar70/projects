@@ -2,7 +2,7 @@
 title: Drug Suggestion - Decision Tree
 date: 2021-02-13T15:34:30.000-04:00
 header:
-  image: https://github.com/tazwar70/blog/raw/master/_posts/images/drug%20suggestion%20decision%20tree.png
+  overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/drug%20suggestion%20decision%20tree.png
   teaser: https://github.com/tazwar70/blog/raw/master/_posts/images/drug%20suggestion%20decision%20tree.png
 toc: true
 toc_label: "Contents"

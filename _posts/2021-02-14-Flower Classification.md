@@ -2,7 +2,7 @@
 title: Classifying Flower Data
 date: 2021-02-14T15:34:30.000-04:00
 header:
-  iamge: https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png
+  overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png
   teaser: https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png
 toc: true
 toc_label: "Contents"
