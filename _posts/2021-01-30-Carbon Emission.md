@@ -5,6 +5,7 @@ date: 2021-01-30T15:34:30.000-04:00
 
 header:
   overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/carbon-emission-plot-1.png
+  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   teaser: https://github.com/tazwar70/blog/raw/master/_posts/images/carbon-emission-plot-1.png
 
 toc: true

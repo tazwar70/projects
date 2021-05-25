@@ -3,6 +3,7 @@ title: Capstone Project - 911 Calls
 date: 2021-05-11T15:34:30.000-04:00
 header:
   overlay_image: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg
+  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   teaser: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg
 toc: true
 toc_label: "Contents"
