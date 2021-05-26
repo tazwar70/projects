@@ -1,6 +1,6 @@
 ---
 title: Predicting Carbon Emission of Cars
-
+author_profile: false
 date: 2021-01-30T15:34:30.000-04:00
 
 header:
@@ -13,12 +13,12 @@ toc_label: "Contents"
 toc_icon: "cog"
 
 categories:
-- post
+- Data Science
+- Machine Learning
 
 tags:
 - Python
 - Regression
-- Scikit Learn
 - Tensorflow
 
 ---

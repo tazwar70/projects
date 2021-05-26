@@ -5,14 +5,48 @@ header:
   overlay_image: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg
   overlay_filter: rgba(0,128,128,0.5)
   teaser: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg
+author_profile: false
+# Table of Contents
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
+
 categories:
-- post
+- Data Science
 tags:
 - Python
 
+
+# Gallery Views
+reason-hist:
+  - url: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-day-of-week-dist-hist.jpg
+    image_path: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-day-of-week-dist-hist.jpg
+    alt: "Histogram of reason of calls weekly"
+    title: "Histogram of reason of calls weekly"
+  - url: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg
+    image_path: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg
+    alt: "Histogram of reason of calls monthly"
+    title: "Histogram of reason of calls monthly"
+
+heat-clustermap1:
+  - url: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/heatmap.jpg
+    image_path: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/heatmap.jpg
+    alt: "Heatmap"
+    title: "Heatmap"
+  - url: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/clustermap.jpg
+    image_path: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/clustermap.jpg
+    alt: "Clustermap"
+    title: "Clustermap"
+
+heat-clustermap2:
+  - url: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/heatmap-2.jpg
+    image_path: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/heatmap-2.jpg
+    alt: "Heatmap"
+    title: "Heatmap"
+  - url: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/clustermap-2.jpg
+    image_path: https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/clustermap-2.jpg
+    alt: "Clustermap"
+    title: "Clustermap"
 ---
 
 This is a data science capstone project which analyzes some 911 call data from a [Kaggle](https://www.kaggle.com/mchirico/montcoalert) dataset.
@@ -76,7 +110,9 @@ df['Reason'] = df['title'].apply(lambda title: title.split(':')[0])
 
 The following histogram shows the distribution of the calls.
 
-![reason-call-hist-plot.jpg](https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-call-hist-plot.jpg)
+{% include figure image_path="https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-call-hist-plot.jpg" alt="reason-call-hist-plot" caption="Histogram showing calls with corresponding reasons." %}
+
+![reason-call-hist-plot.jpg]()
 
 # Call Frequency Analysis
 
@@ -93,13 +129,11 @@ df['Day of Week'] = df['Day of Week'].map(dmap)
 
 Following which the following histograms are produced.
 
-![](https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-day-of-week-dist-hist.jpg)
-
-![](https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-hist.jpg)
+{% include gallery layout="full" id="reason-hist" caption="Histograms showing the reason of calls with weekly and monthly representation." %}
 
 In the histogram showing the call-reason distribution between the months, there are missing data between the months of 8 and 12. In order to mitigate the discontinuity in the data, the following line plot is used.
 
-![](https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-line-plot.jpg)
+{% include figure image_path="https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/reason-911-month-line-plot.jpg" alt="reason-911-month-line-plot" caption="Monthly calls line plot." %}
 
 # Daily Calls Analysis
 
@@ -120,9 +154,7 @@ Thu 	278 	202 	233 	159 	182 	203 	362 	570 	777 	828 	... 	876 	969 	935 	1013 
 5 rows × 24 columns
 ```
 
-![](https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/heatmap.jpg)
-
-![](https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/clustermap.jpg)
+{% include gallery layout="wide" id="heat-clustermap1" caption="Daily Calls Analysis." %}
 
 # Monthly Calls Analysis
 
@@ -143,9 +175,8 @@ Thu 	1584 	1596 	1900 	1601 	1590 	2065 	1646 	1230 	1266
 
 Following which the following heatmap and clustermap was produced.
 
-![](https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/heatmap-2.jpg)
+{% include gallery layout="full" id="heat-clustermap2" caption="Monthly Calls Analysis." %}
 
-![](https://raw.githubusercontent.com/tazwar70/911-Calls/main/plots/clustermap-2.jpg)
 
 The complete Jupyter-Notebook and the dataset can be found from the resource below.
 

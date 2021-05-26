@@ -2,3 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+jekyll-run.cmd
+jekyll-run.txt
+jekyll-run.ps1

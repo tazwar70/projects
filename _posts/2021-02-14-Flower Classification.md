@@ -1,6 +1,7 @@
 ---
 title: Classifying Flower Data
 date: 2021-02-14T15:34:30.000-04:00
+author_profile: false
 header:
   overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png
   overlay_filter: rgba(0,128,128,0.5)
@@ -9,7 +10,8 @@ toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 categories:
-- post
+- Data Science
+- Machine Learning
 tags:
 - Python
 - Machine Learning
@@ -24,7 +26,8 @@ This project focuses on classifying flowers based on the IRIS Data-set using the
 
 The figure below shows the distribution of the Data-set using seaborn visualization.
 
-![IRIS-scatterplot](https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png)
+{% include figure image_path="https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png" alt="IRIS-scatterplot" caption="IRIS-scatterplot" %}
+
 
 The Data-set includes the following information,
 
@@ -92,7 +95,7 @@ The table below shows the classification report of the model,
 
 The image below shows the confusion matrix of the model,
 
-![IRIS confusion matrix](https://github.com/tazwar70/blog/raw/master/_posts/images/iris-confusion-matrixpng.png)
+{% include figure image_path="https://github.com/tazwar70/blog/raw/master/_posts/images/iris-confusion-matrixpng.png" alt="IRIS confusion matrix" caption="IRIS confusion matrix" %}
 
 
 

@@ -1,6 +1,7 @@
 ---
 title: Drug Suggestion - Decision Tree
 date: 2021-02-13T15:34:30.000-04:00
+author_profile: false
 header:
   overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/drug%20suggestion%20decision%20tree.png
   overlay_filter: rgba(0,128,128,0.5)
@@ -9,11 +10,10 @@ toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 categories:
-- post
+- Data Science
+- Machine Learning
 tags:
 - Python
-- Machine Learning
-- Sci-kit Learn
 - Decision Tree
 
 ---
