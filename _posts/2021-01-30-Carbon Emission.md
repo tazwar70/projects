@@ -2,7 +2,7 @@
 title: Predicting Carbon Emission of Cars
 author_profile: false
 date: 2021-01-30T15:34:30.000-04:00
-
+tagline: ""
 header:
   overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/carbon-emission-plot-1.png
   overlay_filter: rgba(0,128,128,0.5)
@@ -11,10 +11,6 @@ header:
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
-
-categories:
-- Data Science
-- Machine Learning
 
 tags:
 - Python

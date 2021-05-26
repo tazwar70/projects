@@ -2,6 +2,7 @@
 title: Drug Suggestion - Decision Tree
 date: 2021-02-13T15:34:30.000-04:00
 author_profile: false
+tagline: ""
 header:
   overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/drug%20suggestion%20decision%20tree.png
   overlay_filter: rgba(0,128,128,0.5)
@@ -9,9 +10,7 @@ header:
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
-categories:
-- Data Science
-- Machine Learning
+
 tags:
 - Python
 - Decision Tree
@@ -109,7 +108,14 @@ metrics.accuracy_score(y_test, predicted_y)
 
 The following diagram shows the decision tree breakdown of the model.
 
-![Decision Tree](https://github.com/tazwar70/blog/raw/master/_posts/images/drug%20suggestion%20decision%20tree.png)
+{% 
+include figure 
+image_path="https://github.com/tazwar70/blog/raw/master/_posts/images/drug%20suggestion%20decision%20tree.png" 
+alt="Drug Suggestion - Decision Tree" 
+caption="Drug Suggestion - Decision Tree" 
+%}
+
+
 
 Link to Notebook: [GitHub](https://github.com/tazwar70/Drug-Suggestion)
 

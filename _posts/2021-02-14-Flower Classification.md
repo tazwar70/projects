@@ -2,6 +2,7 @@
 title: Classifying Flower Data
 date: 2021-02-14T15:34:30.000-04:00
 author_profile: false
+tagline: ""
 header:
   overlay_image: https://github.com/tazwar70/blog/raw/master/_posts/images/iris-scatterplot.png
   overlay_filter: rgba(0,128,128,0.5)
@@ -9,12 +10,9 @@ header:
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
-categories:
-- Data Science
-- Machine Learning
+
 tags:
 - Python
-- Machine Learning
 - Classification
 - KNN
 
