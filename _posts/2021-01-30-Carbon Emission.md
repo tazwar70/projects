@@ -11,7 +11,7 @@ header:
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
-
+toc_sticky: true
 tags:
 - Python
 - Regression
